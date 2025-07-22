@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google Form</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body id="page">
+                <a href="home.html" class="home-button">Return to Home</a>
+<div id="container">
+    <img src="google_images.webp" style="height: 300px;width: 300px;align-items: center;margin-left: 60px;">
+            <form>
+            <div id="sub-container" >
+                <label for="fname">Full name:</label><br>
+                <input type="text" id="fname" ><br>
+            </div>
+            <div id="sub-container">
+                <label for="contact" id="contact">Contact Number:</label><br>
+                <input type="number" id="contact">
+            </div>
+            <div id="sub-container">
+                <label for="address" id="address">Address:</label><br>
+                <textarea id="address" name="address" rows="4" cols="50"></textarea>
+
+            </div>
+            <div id="sub-container">
+                <label for="cname" id="cname">Company Name:</label><br>
+                <input type="text" id="cname">
+            </div>
+            <div id="sub-container">
+                <label for="email" id="mailId">email:</label><br>
+                <input type="email" id="mailId">
+            </div>
+            <div id="sub-container">
+                <label for="department" id="department">email:</label><br>
+                <select name="department" >
+                    <option value="hr">HR</option>
+                    <option value="sales">Sales</option>
+                    <option value="development">Development</option>
+                    <option value="marketing">Marketing</option>
+                    <option value="others">Others</option>
+                </select>
+            </div>
+            <div id="sub-container">
+                <p>Male:<input type="radio" name="gender"> Female:<input type="radio" name="gender"> Prefer not to say:<input type="radio" name="gender"></p>
+            </div>
+            <div id="submit-container">
+                <input value="Submit" type="submit" id="submit">
+            </form>
+        </div>
+
+    </body>
+</html>
